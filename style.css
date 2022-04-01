@@ -1,0 +1,146 @@
+/*colors and fonts*/
+body{
+	background-color: #e2ece9 ;
+	text-align: center;
+	text-decoration-color: black;
+}
+
+
+h1,h2{
+	font-family: 'Cormorant SC', serif;
+	font-weight: bold;
+	color:black;
+}
+
+h1{
+	font-size: 50px;
+	line-height: 30px;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style-type: none;l
+}
+
+
+.container{
+	background-color: #e2ece9;
+	box-shadow: none;
+	width: 700px ;
+	margin: 50px auto;
+}
+
+.image-circle{
+	border-radius: 50%;
+	;
+}
+
+.card-white{
+	background: #f5f3f4;                         /* White background$*/ 
+padding: 30px;                             /* Internal space */
+border-radius: 7px;                        /* Small radius */
+box-shadow: 0px 10px 30px rgba(0,0,0,0.2);    /* Light shadow */
+width: 700px;
+margin: 30px auto;
+}
+
+
+#last-div{
+	max-height: 110px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+  
+
+
+#First-Sentence{
+	color: black;
+}
+
+
+.list-to-linline li {
+	display: inline;
+	list-style: none;
+	font-size: xx-large;
+	margin-right: 20px;
+}
+
+
+.list-to-linline i{
+	color:rgb(215, 215, 215);	
+}
+
+.list-to-linline i:hover{
+	color: black;
+	font-size: 150%;
+}
+
+
+.btn-black{
+	font-family: 'Linux Libertine','Georgia','Times',serif;
+	background-color: rgba(10, 10, 10, 0.8);
+	padding: 15px 20px;
+	border-radius: 7px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2) ;
+	color: white;
+	font-weight: bold;
+}
+
+
+.btn-black:hover {
+	padding: 9px 13px;
+	border-radius: 5px;
+	font-size: 13px;
+box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+color: white;
+font-weight: bold;
+}
+
+
+
+#introduction p { 
+	margin-bottom: 40px;
+}
+
+
+.sidebar {
+  position: fixed;
+  width: 95px;
+  left: 0px;
+  top: 0;
+  bottom: 640px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.page-content {
+  margin-left: auto;
+}
+
+.sidebar ul {
+  list-style: none;
+	padding-left: 0px;
+	line-height: 50px;
+	co
+}
+
